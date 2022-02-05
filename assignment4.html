@@ -7,95 +7,174 @@
     <meta charset="utf-8">
     <title>Assignment 4</title>
     <style>
-      body{ text-align: center
+      body{
+        background-color: #222224;
+      }
+      table{
+        text-align: center;
+      }
+      h1{
+        font-family:futura;
+        color: #F3EFE0;
+      }
+      h2{
+        font-family:futura;
+        color: #F3EFE0;
+      }
+      h3{
+        font-family:futura;
+        color: #F3EFE0;
+      }
+      ul{
+        font-family:futura;
+        color: #F3EFE0;
+      }
+      h4{
+        font-family:futura;
+        color: #F3EFE0;
+        font-size: 16px;
+        font-weight: lighter;
+      }
+      p{
+        font-family:futura;
+        color: #F3EFE0;
+        font-weight: normal;
+      }
+      h5{
+        font-family:futura;
+        color: #F3EFE0;
+        font-weight: lighter;
       }
     </style>
     </head>
 
     <body>
-      <h1 style="font-family: futura; color: #333333"> Assignment 4 </h1>
-      <h2 style="font-family: futura; color: #333333"> Challenge 2: Build a Chessboard </h2>
-      <table style="border: 10px; background-color: #333333; border-color:#333333">
-      <tr>
-        <td style="height:35px;width:35px; color: #888888"> &#9820;</td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px; color: #888888"> &#9822;</td>
-        <td style="height:35px;width:35px; color: #888888"> &#9821;</td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px; color: #888888"> &#9819;</td>
-        <td style="height:35px;width:35px; color: #888888">&#9818; </td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px; color: #888888"> &#9821;</td>
-        <td style="height:35px;width:35px; color: #888888"> &#9822;</td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px; color: #888888"> &#9820;</td>
-      </tr>
-      <tr>
-        <td style="background-color:#F3EFE0;height:35px;width:35px; color: #888888"> &#9817;</td>
-        <td style="height:35px;width:35px; color: #888888"> &#9817;</td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px; color: #888888"> &#9817;</td>
-        <td style="height:35px;width:35px; color: #888888"> &#9817;</td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px; color: #888888"> &#9817;</td>
-        <td style="height:35px;width:35px; color: #888888"> &#9817;</td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px; color: #888888"> &#9817;</td>
-        <td style="height:35px;width:35px; color: #888888"> &#9817;</td>
-      </tr>
-      <tr>
-        <td style="height:35px;width:35px"></td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px;"></td>
-        <td style="height:35px;width:35px"></td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px;"></td>
-        <td style="height:35px;width:35px"></td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px;"></td>
-        <td style="height:35px;width:35px"></td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px;"></td>
-      </tr>
-      <tr>
-        <td style="background-color:#F3EFE0;height:35px;width:35px"></td>
-        <td style="height:35px;width:35px;"></td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px;"></td>
-        <td style="height:35px;width:35px;"></td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px;"></td>
-        <td style="height:35px;width:35px;"></td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px;"></td>
-        <td style="height:35px;width:35px;"></td>
-      </tr>
-      <tr>
-        <td style="height:35px;width:35px"></td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px;"></td>
-        <td style="height:35px;width:35px"></td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px;"></td>
-        <td style="height:35px;width:35px"></td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px;"></td>
-        <td style="height:35px;width:35px"></td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px;"></td>
-      </tr>
-      <tr>
-        <td style="background-color:#F3EFE0;height:35px;width:35px;"></td>
-        <td style="height:35px;width:35px"></td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px;"></td>
-        <td style="height:35px;width:35px"></td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px;"></td>
-        <td style="height:35px;width:35px"></td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px;"></td>
-        <td style="height:35px;width:35px"></td>
-      </tr>
-      <tr>
-        <td style="height:35px;width:35px; color: #888888"> &#9817;</td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px; color: #888888"> &#9817;</td>
-        <td style="height:35px;width:35px; color: #888888"> &#9817;</td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px; color: #888888"> &#9817;</td>
-        <td style="height:35px;width:35px; color: #888888"> &#9817;</td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px; color: #888888"> &#9817;</td>
-        <td style="height:35px;width:35px; color: #888888"> &#9817;</td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px; color: #888888"> &#9817;</td>
-      </tr>
-      <tr>
-        <td style="background-color:#F3EFE0;height:35px;width:35px; color: #888888"> &#9814;</td>
-        <td style="height:35px;width:35px; color: #888888"> &#9816;</td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px; color: #888888"> &#9815;</td>
-        <td style="height:35px;width:35px; color: #888888"> &#9813;</td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px; color: #888888"> &#9812;</td>
-        <td style="height:35px;width:35px; color: #888888"> &#9815;</td>
-        <td style="background-color:#F3EFE0;height:35px;width:35px; color: #888888"> &#9816;</td>
-        <td style="height:35px;width:35px; color: #888888"> &#9814;</td>
-      </tr>
-    </table>
+      <h1> Assignment 4 </h1>
+      <div>
+        <h3>Table of Contents:</h3>
+        <ul>
+          <li> <a href="#challenge-2"><h4>challenge 2</h4></a> </li>
+          <li><a href="#challenge-3"><h4>challenge 3</h4></a> </li>
+          <li><a href="#challenge-4"><h4>challenge 4</h4></a> </li>
+          </ul>
+          <br>
+          <hr>
+      </div>
+      <div class="challenge 2">
+        <h2 id="challenge-2"> Challenge 2: Build a Chessboard </h2>
+        <table style="border: 10px; background-color: #F3EFE0; border-color:#F3EFE0">
+        <tr>
+          <td style="height:35px;width:35px; color: #888888"> &#9820;</td>
+          <td style="background-color:#333333;height:35px;width:35px; color: #888888"> &#9822;</td>
+          <td style="height:35px;width:35px; color: #888888"> &#9821;</td>
+          <td style="background-color:#333333;height:35px;width:35px; color: #888888"> &#9819;</td>
+          <td style="height:35px;width:35px; color: #888888">&#9818; </td>
+          <td style="background-color:#333333;height:35px;width:35px; color: #888888"> &#9821;</td>
+          <td style="height:35px;width:35px; color: #888888"> &#9822;</td>
+          <td style="background-color:#333333;height:35px;width:35px; color: #888888"> &#9820;</td>
+        </tr>
+        <tr>
+          <td style="background-color:#333333;height:35px;width:35px; color: #888888"> &#9817;</td>
+          <td style="height:35px;width:35px; color: #888888"> &#9817;</td>
+          <td style="background-color:#333333;height:35px;width:35px; color: #888888"> &#9817;</td>
+          <td style="height:35px;width:35px; color: #888888"> &#9817;</td>
+          <td style="background-color:#333333;height:35px;width:35px; color: #888888"> &#9817;</td>
+          <td style="height:35px;width:35px; color: #888888"> &#9817;</td>
+          <td style="background-color:#333333;height:35px;width:35px; color: #888888"> &#9817;</td>
+          <td style="height:35px;width:35px; color: #888888"> &#9817;</td>
+        </tr>
+        <tr>
+          <td style="height:35px;width:35px"></td>
+          <td style="background-color:#333333;height:35px;width:35px;"></td>
+          <td style="height:35px;width:35px"></td>
+          <td style="background-color:#333333;height:35px;width:35px;"></td>
+          <td style="height:35px;width:35px"></td>
+          <td style="background-color:#333333;height:35px;width:35px;"></td>
+          <td style="height:35px;width:35px"></td>
+          <td style="background-color:#333333;height:35px;width:35px;"></td>
+        </tr>
+        <tr>
+          <td style="background-color:#333333;height:35px;width:35px"></td>
+          <td style="height:35px;width:35px;"></td>
+          <td style="background-color:#333333;height:35px;width:35px;"></td>
+          <td style="height:35px;width:35px;"></td>
+          <td style="background-color:#333333;height:35px;width:35px;"></td>
+          <td style="height:35px;width:35px;"></td>
+          <td style="background-color:#333333;height:35px;width:35px;"></td>
+          <td style="height:35px;width:35px;"></td>
+        </tr>
+        <tr>
+          <td style="height:35px;width:35px"></td>
+          <td style="background-color:#333333;height:35px;width:35px;"></td>
+          <td style="height:35px;width:35px"></td>
+          <td style="background-color:#333333;height:35px;width:35px;"></td>
+          <td style="height:35px;width:35px"></td>
+          <td style="background-color:#333333;height:35px;width:35px;"></td>
+          <td style="height:35px;width:35px"></td>
+          <td style="background-color:#333333;height:35px;width:35px;"></td>
+        </tr>
+        <tr>
+          <td style="background-color:#333333;height:35px;width:35px;"></td>
+          <td style="height:35px;width:35px"></td>
+          <td style="background-color:#333333;height:35px;width:35px;"></td>
+          <td style="height:35px;width:35px"></td>
+          <td style="background-color:#333333;height:35px;width:35px;"></td>
+          <td style="height:35px;width:35px"></td>
+          <td style="background-color:#333333;height:35px;width:35px;"></td>
+          <td style="height:35px;width:35px"></td>
+        </tr>
+        <tr>
+          <td style="height:35px;width:35px; color: #888888"> &#9817;</td>
+          <td style="background-color:#333333;height:35px;width:35px; color: #888888"> &#9817;</td>
+          <td style="height:35px;width:35px; color: #888888"> &#9817;</td>
+          <td style="background-color:#333333;height:35px;width:35px; color: #888888"> &#9817;</td>
+          <td style="height:35px;width:35px; color: #888888"> &#9817;</td>
+          <td style="background-color:#333333;height:35px;width:35px; color: #888888"> &#9817;</td>
+          <td style="height:35px;width:35px; color: #888888"> &#9817;</td>
+          <td style="background-color:#333333;height:35px;width:35px; color: #888888"> &#9817;</td>
+        </tr>
+        <tr>
+          <td style="background-color:#333333;height:35px;width:35px; color: #888888"> &#9814;</td>
+          <td style="height:35px;width:35px; color: #888888"> &#9816;</td>
+          <td style="background-color:#333333;height:35px;width:35px; color: #888888"> &#9815;</td>
+          <td style="height:35px;width:35px; color: #888888"> &#9813;</td>
+          <td style="background-color:#333333;height:35px;width:35px; color: #888888"> &#9812;</td>
+          <td style="height:35px;width:35px; color: #888888"> &#9815;</td>
+          <td style="background-color:#333333;height:35px;width:35px; color: #888888"> &#9816;</td>
+          <td style="height:35px;width:35px; color: #888888"> &#9814;</td>
+        </tr>
+      </table>
+    </div>
+    <br>
+    <hr>
+    <div class="challenge 3">
+      <h2 id="challenge-3"> Challenge 3: Create a Form</h2>
+      <form>
+        <p> name: <input type="text"> </p>
+        <p> local time: <input type="text"></p>
+        <p> favorite marine invertebrate:
+        </p>
+        <h5>
+        <input type="radio" id="nudibranch" name="fav_marine_invertebrate">
+        <label for="nudibranch">nudibronch</label><br>
+        <input type="radio" id="anemone" name="fav_language">
+        <label for="anemone">anemone</label><br>
+        <input type="radio" id="cuttlefish" name="fav_language">
+        <label for="cuttlefish">cuttlefish</label><br>
+        <input type="radio" id="christmas-tree-worm" name="fav_language">
+        <label for="christmas-tree-worm">christmas tree worm</label><br>
+        <input type="radio" id="sea-walnut" name="fav_language">
+        <label for="sea-walnut">sea walnut</label><br>
+        </h5>
+        <input type="submit">
+      </form>
+    </div>
+    <br>
+    <hr>
+    <div class="challenge-4">
+      <h2 id="challenge-4"> Challenge 4: Google Search Page</h2>
+      <br><br>
+      
+    </div>
   </body>
 </html>

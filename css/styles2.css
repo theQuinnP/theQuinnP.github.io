@@ -1,0 +1,127 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@300;400;600&family=Roboto&display=swap');
+  /*
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Unica+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300&family=Dosis:wght@200&family=Jost:wght@100&family=Montserrat:wght@100;200&family=Poiret+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+  */
+  @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400&display=swap');
+  /* jost is good
+  dosis eh
+  big shoulders display no
+  Montserrat good
+  */
+
+  body{
+    background-color: #E7E7E7;
+    text-align: right;
+    font-family: jost;
+    font-weight: 100;
+    color: #424242;
+    padding: 40px;
+  }
+
+  p{
+    font-weight: normal;
+    font-family:'Inconsolata';
+    font-size: 12px;
+  }
+
+  h1{
+    font-size: 48px;
+    font-weight: 200;
+    margin: 10px;
+  }
+
+  h2{
+    font-size: 36px;
+    font-weight: 200;
+    margin: 5px;
+  }
+
+  h3{
+    font-size: 24px;
+    font-weight: 200;
+  }
+
+  h4{
+    font-size: 18px;
+    font-weight: 200;
+  }
+
+  h5{
+    font-size: 16px;
+    font-weight: 200;
+  }
+
+  h6{
+    font-size: 14px;
+    font-weight: 200;
+  }
+
+  ul{
+    list-style-type: disc;
+    font-size: 10px;
+    list-style-position: inside;
+    font-family:'Inconsolata';
+  }
+
+  ol{
+    font-size: 10px;
+    list-style-position: inside;
+    font-family:'Inconsolata';
+  }
+
+  a:link{
+    color: #E14321;
+    font-weight:lighter;
+    font-size: 12px;
+    font-family:'Inconsolata';
+  }
+
+  a:visited{
+    color: #E14321;
+    font-weight:lighter;
+    font-family:'Inconsolata';
+  }
+
+  a:hover{
+    color: #E14321;
+    font-weight: bold;
+    font-family:'Inconsolata';
+  }
+
+  hr{
+    font-weight: 400;
+  }
+
+  .vl {
+    border-right: 3px #E14321 solid;
+    padding-right: 35px;
+    height: 90vh;
+    width: 85vw;
+    vertical-align: baseline;
+    /* width: 33vw; */
+  }
+
+  .ba{
+        position: absolute;
+        bottom: 15vh;
+        width: 85vw;
+
+      }
+
+  /* table{
+    background-color: #E7E7E7;
+    border-color: #E14321;
+    border-collapse: collapse;
+    border-style: solid;
+    border-right: 5px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+
+  } */

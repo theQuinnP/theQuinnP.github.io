@@ -101,7 +101,8 @@
   .vl {
     border-right: 3px #E14321 solid;
     padding-right: 35px;
-    height: 90vh;
+    margin-top: 40px;
+    height:85vh;
     width: 85vw;
     vertical-align: baseline;
     /* width: 33vw; */
@@ -111,8 +112,58 @@
         position: absolute;
         bottom: 10vh;
         width: 85vw;
+  }
 
+  table{
+    background-color:#E14321;
+    border:#E14321;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width:100vw;
+    margin-bottom: 30px;
+  }
+
+  #mast a:link{
+      color: #E7E7E7;
+      font-weight:lighter;
+      font-size: 12px;
+      font-family:'Inconsolata';
+    }
+
+    #mast a:hover{
+        color: #E7E7E7;
+        font-weight:lighter;
+        font-size: 12px;
+        font-family:'Inconsolata';
       }
+
+      #mast a:visited{
+          color: #E7E7E7;
+          font-weight:lighter;
+          font-size: 12px;
+          font-family:'Inconsolata';
+        }
+
+        #mast p{
+            color: #E7E7E7;
+            font-weight:lighter;
+            font-size: 12px;
+            font-family:'Inconsolata';
+            text-decoration: underline;
+          }
+
+          #mast td{
+              color: #E7E7E7;
+              font-weight:lighter;
+              font-size: 12px;
+              font-family:'Inconsolata';
+              text-decoration: underline;
+              text-align:center;
+              padding-top: 20px;
+            }
+
 
   /* table{
     background-color: #E7E7E7;

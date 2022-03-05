@@ -113,7 +113,7 @@
         bottom: 10vh;
         width: 85vw;
   }
-
+/*
   table{
     background-color:#E14321;
     border:#E14321;
@@ -125,28 +125,28 @@
     margin-bottom: 30px;
   }
 
-  #mast a:link{
+  .mast a:link{
       color: #E7E7E7;
       font-weight:lighter;
       font-size: 12px;
       font-family:'Inconsolata';
     }
 
-    #mast a:hover{
+    .mast a:hover{
         color: #E7E7E7;
         font-weight:lighter;
         font-size: 12px;
         font-family:'Inconsolata';
       }
 
-      #mast a:visited{
+      .mast a:visited{
           color: #E7E7E7;
           font-weight:lighter;
           font-size: 12px;
           font-family:'Inconsolata';
         }
 
-        #mast p{
+        .mast p{
             color: #E7E7E7;
             font-weight:lighter;
             font-size: 12px;
@@ -154,7 +154,7 @@
             text-decoration: underline;
           }
 
-          #mast td{
+          .mast td{
               color: #E7E7E7;
               font-weight:lighter;
               font-size: 12px;
@@ -163,16 +163,35 @@
               text-align:center;
               padding-top: 20px;
             }
+ */
+            @media screen and (min-width: 400px){
+
+                .mast{
+                  display: flex;
+                  flex-flow: row wrap;
+                  justify-content: flex-end;
+                  margin: 0;
+                  padding: 15px;
+                  justify-content: space-between;
+                  background: #E14321;
+                  color: #E7E7E7;
+                  font-weight: normal;
+                  font-family:'Inconsolata';
+                  font-size: 12px;
+                  width: 100%;
+                }
+
+                .about{}
+
+                .home{}
+
+                .contact{}
+
+                .projects{}
 
 
-  /* table{
-    background-color: #E7E7E7;
-    border-color: #E14321;
-    border-collapse: collapse;
-    border-style: solid;
-    border-right: 5px;
-    border-left: 0px;
-    border-bottom: 0px;
-    border-top: 0px;
+            }
 
-  } */
+            @media screen and (max-width: 399px){
+
+            }

@@ -185,6 +185,7 @@
          font-family:'Inconsolata';
          font-size: 12px;
          margin: 0px;
+         text-align: center;
 
       }
       .mast li:hover {

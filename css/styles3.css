@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@300;400;600&family=Roboto&display=swap');
+  /*
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Unica+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300&family=Dosis:wght@200&family=Jost:wght@100&family=Montserrat:wght@100;200&family=Poiret+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+  */
+  @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;600;700&display=swap');
+  /* jost is good
+  dosis eh
+  big shoulders display no
+  Montserrat good
+  */
+
+  body{
+    background-color: #E7E7E7;
+    text-align: right;
+    font-family: jost;
+    font-weight: 100;
+    color: #424242;
+    padding: 40px;
+  }
+
+  p{
+    font-weight: normal;
+    font-family:'Inconsolata';
+    font-size: 12px;
+  }
+
+  h1{
+    font-size: 48px;
+    font-weight: 200;
+    margin: 10px;
+  }
+
+  h2{
+    font-size: 36px;
+    font-weight: 200;
+    margin: 5px;
+  }
+
+  h3{
+    font-size: 24px;
+    font-weight: 200;
+  }
+
+  h4{
+    font-size: 18px;
+    font-weight: 200;
+  }
+
+  h5{
+    font-size: 16px;
+    font-weight: 200;
+  }
+
+  h6{
+    font-size: 14px;
+    font-weight: 200;
+  }
+
+  ul{
+    list-style-type: disc;
+    font-size: 10px;
+    list-style-position: inside;
+    font-family:'Inconsolata';
+  }
+
+  ol{
+    font-size: 10px;
+    list-style-position: inside;
+    font-family:'Inconsolata';
+  }
+
+  a:link{
+    color: #E14321;
+    font-weight:lighter;
+    font-size: 12px;
+    font-family:'Inconsolata';
+  }
+
+  a:visited{
+    color: #E14321;
+    font-weight:lighter;
+    font-family:'Inconsolata';
+  }
+
+  a:hover{
+    color: #E14321;
+    font-weight: bold;
+    font-family:'Inconsolata';
+  }
+
+  hr{
+    font-weight: 400;
+  }
+
+  .vl {
+    border-right: 3px #E14321 solid;
+    padding-right: 35px;
+    margin-top: 40px;
+    height:85vh;
+    width: 85vw;
+    vertical-align: baseline;
+    /* width: 33vw; */
+  }
+
+  .ba{
+        position: absolute;
+        bottom: 10vh;
+        width: 85vw;
+  }
+/*
+  table{
+    background-color:#E14321;
+    border:#E14321;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width:100vw;
+    margin-bottom: 30px;
+  }
+  .mast a:link{
+      color: #E7E7E7;
+      font-weight:lighter;
+      font-size: 12px;
+      font-family:'Inconsolata';
+    }
+    .mast a:hover{
+        color: #E7E7E7;
+        font-weight:lighter;
+        font-size: 12px;
+        font-family:'Inconsolata';
+      }
+      .mast a:visited{
+          color: #E7E7E7;
+          font-weight:lighter;
+          font-size: 12px;
+          font-family:'Inconsolata';
+        }
+        .mast p{
+            color: #E7E7E7;
+            font-weight:lighter;
+            font-size: 12px;
+            font-family:'Inconsolata';
+            text-decoration: underline;
+          }
+          .mast td{
+              color: #E7E7E7;
+              font-weight:lighter;
+              font-size: 12px;
+              font-family:'Inconsolata';
+              text-decoration: underline;
+              text-align:center;
+              padding-top: 20px;
+            }
+ */
+            @media screen and (min-width: 400px){
+
+                .mast{
+                  display: flex;
+                  flex-flow: row wrap;
+                  justify-content: flex-end;
+                  margin: 0;
+                  padding: 15px;
+                  justify-content: space-between;
+                  background: #E14321;
+                  color: #E7E7E7;
+                  font-weight: normal;
+                  font-family:'Inconsolata';
+                  font-size: 12px;
+                  width: 100%;
+                }
+
+                .about{}
+
+                .home{}
+
+                .contact{}
+
+                .projects{}
+
+
+            }
+
+            @media screen and (max-width: 399px){
+
+            }

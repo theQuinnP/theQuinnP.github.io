@@ -1,0 +1,100 @@
+    /* UTILITIES */
+    * {
+     margin: 0;
+   }
+    a {
+     text-decoration: none;
+    }
+    li {
+     list-style: none;
+     text-align: center;
+    }
+
+    /* NAVBAR STYLING STARTS */
+    .navbar {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px;
+     background-color: #E14321;
+     color: #fff;
+    }
+    .nav-links a {
+     color: #fff;
+    }
+    /* NAVBAR MENU */
+    .mast {
+     display: flex;
+     gap: 1em;
+     font-size: 18px;
+    }
+    .mast li:hover {
+     background-color: #E14321;
+     border-radius: 5px;
+     transition: 0.3s ease;
+    }
+    .mast li {
+     padding: 5px 14px;
+    }
+    /* DROPDOWN MENU */
+    .dropdown {
+     background-color: #E14321;
+     padding: 1em 0;
+     position: absolute; /*WITH RESPECT TO PARENT*/
+     display: none;
+     border-radius: 8px;
+     top: 35px;
+     text-align: center;
+    }
+    .dropdown li {
+     padding: 0.5em 1em;
+     width: 8em;
+     text-align: center;
+    }
+
+    /*RESPONSIVE NAVBAR MENU STARTS*/
+
+    /* CHECKBOX HACK */
+    input[type=checkbox]{
+     display: none;
+    }
+    /*HAMBURGER MENU*/
+    .icon {
+       display: none;
+       font-size: 24px;
+       user-select: none;
+       text-align: center;
+    }
+    /*////////////////////////////////////////////////////////////////////////*/
+    @media (max-width: 768px) {
+    .mast {
+       display: none;
+       align-items: center;
+       justify-content: space-between;
+       padding-top: 20px;
+       padding-bottom: 20px;
+
+       background: #E14321;
+       color: #E7E7E7;
+       font-weight: normal;
+       font-family:'Inconsolata';
+       font-size: 12px;
+
+    }
+    .mast li{
+       display:flex;
+       background-color:#E14321;
+       transition: 0.3s ease;
+    }
+    input[type=checkbox]:checked ~ .mast{
+       display: block;
+    }
+    .icon {
+       display: block;
+    }
+    .dropdown {
+       left: 50%;
+       top: 30px;
+       transform: translateX(35%);
+    }
+    }

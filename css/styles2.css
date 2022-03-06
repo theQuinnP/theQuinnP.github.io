@@ -16,13 +16,17 @@
   Montserrat good
   */
 
+  *{
+    margin:0;
+  }
   body{
     background-color: #E7E7E7;
     text-align: right;
     font-family: jost;
     font-weight: 100;
     color: #424242;
-    padding: 40px;
+    margin: 0px;
+    /* padding: 40px; */
   }
 
   p{
@@ -114,72 +118,130 @@
         bottom: 10vh;
         width: 85vw;
   }
-/*
-  table{
-    background-color:#E14321;
-    border:#E14321;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 60px;
-    width:100vw;
-    margin-bottom: 30px;
+
+  .mast {
+   display: flex;
+   gap: 1em;
+   font-size: 18px;
+   margin: 0px;
   }
 
-  .mast a:link{
-      color: #E7E7E7;
-      font-weight:lighter;
-      font-size: 12px;
-      font-family:'Inconsolata';
+  .mast li {
+   padding: 5px 14px;
+   margin: 0px;
+   text-align: center;
+   list-style: none;
+   color: #E7E7E7;
+  }
+
+  .mast a{
+    text-decoration: none;
+    color: #E7E7E7;
+  }
+  /* DROPDOWN MENU */
+  .dropdown {
+   background-color: #E14321;
+   padding: 1em 0;
+   position: absolute; /*WITH RESPECT TO PARENT*/
+   display: none;
+   border-radius: 8px;
+   top: 35px;
+   text-align: center;
+   margin: 0px;
+  }
+  .dropdown li {
+   padding: 0.5em 1em;
+   width: 8em;
+   text-align: center;
+   margin: 0px;
+  }
+
+  /*RESPONSIVE NAVBAR MENU STARTS*/
+
+  /* CHECKBOX HACK */
+  input[type=checkbox]{
+   display: none;
+  }
+  /*HAMBURGER MENU*/
+  .icon {
+     display: none;
+     font-size: 24px;
+     user-select: none;
+     text-align: center;
+  }
+
+  /*////////////////////////////////////////////////////////////////////////*/
+  @media (max-width: 699px) {
+      .mast {
+         display: none;
+         align-items: center;
+         justify-content: space-between;
+         padding-top: 20px;
+         padding-bottom: 20px;
+
+         background: #E14321;
+         color: #E7E7E7;
+         font-weight: normal;
+         font-family:'Inconsolata';
+         font-size: 12px;
+         margin: 0px;
+
+      }
+      .mast li:hover {
+         display: inline-block;
+         background-color:#E14321;
+         transition: 0.3s ease;
+         text-align: center;
+      }
+      input[type=checkbox]:checked ~ .mast{
+         display: block;
+      }
+      .icon {
+         display: block;
+      }
+      .dropdown {
+         left: 50%;
+         top: 30px;
+         transform: translateX(35%);
+      }
+      .dropdown li:hover {
+        background-color: #E14321;
+        text-align: center;
+      }
     }
 
-    .mast a:hover{
-        color: #E7E7E7;
-        font-weight:lighter;
-        font-size: 12px;
-        font-family:'Inconsolata';
-      }
+  /*//////////////////////////////////////////////////////////////////////////*/
 
-      .mast a:visited{
-          color: #E7E7E7;
-          font-weight:lighter;
-          font-size: 12px;
-          font-family:'Inconsolata';
-        }
+            @media screen and (min-width: 700px){
 
-        .mast p{
-            color: #E7E7E7;
-            font-weight:lighter;
-            font-size: 12px;
-            font-family:'Inconsolata';
-            text-decoration: underline;
-          }
-
-          .mast td{
-              color: #E7E7E7;
-              font-weight:lighter;
-              font-size: 12px;
-              font-family:'Inconsolata';
-              text-decoration: underline;
-              text-align:center;
-              padding-top: 20px;
-            }
- */
-            @media screen and (min-width: 400px){
+              body{
+                margin: 0px
+              }
 
                 .mast{
-                  display: flex;
-                  flex-flow: row wrap;
-                  justify-content: flex-end;
-                  margin: 0;
-                  padding: 15px;
-                  justify-content: space-between;
-                  background: #E14321;
+                   display: flex;
+                   align-items: center;
+                   justify-content: space-between;
+                   padding-top: 20px;
+                   padding-bottom: 20px;
+
+                   background: #E14321;
+                   color: #E7E7E7;
+                   font-weight: normal;
+                   font-family:'Inconsolata';
+                   font-size: 12px;
+                   margin: 0px;
+
+                }
+
+                .mast li{
                   color: #E7E7E7;
-                  font-weight: normal;
-                  font-family:'Inconsolata';
-                  font-size: 12px;
-                  width: 100%;
+                  list-style: none;
+                }
+
+                .mast a{
+                  color: #E7E7E7;
+                  text-decoration: none;
                 }
 
                 .about{}
@@ -190,9 +252,9 @@
 
                 .projects{}
 
+                .space1{}
 
-            }
+                .space2{}
 
-            @media screen and (max-width: 399px){
 
             }

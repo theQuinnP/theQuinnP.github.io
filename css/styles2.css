@@ -189,7 +189,7 @@
   }
 
   /*////////////////////////////////////////////////////////////////////////*/
-  @media (max-width: 699px) {
+  @media (max-width: 599px) {
       .mast {
          display: none;
          align-items: center;
@@ -205,7 +205,7 @@
 
       }
       .mast li:hover {
-         display: inline-block;
+         display: grid;
          background-color:#E14321;
          transition: 0.3s ease;
          text-align: center;
@@ -220,12 +220,12 @@
          display: block;
       }
       .icon {
-         display: block;
+         display: grid;
       }
       .dropdown {
          left: 50%;
          top: 30px;
-         transform: translateX(35%); 
+         transform: translateX(35%);
          font-size: .8em;
       }
 
@@ -270,7 +270,7 @@
 
   /*//////////////////////////////////////////////////////////////////////////*/
 
-            @media screen and (min-width: 700px){
+            @media screen and (min-width: 600px){
 
               body{
                 margin: 0px

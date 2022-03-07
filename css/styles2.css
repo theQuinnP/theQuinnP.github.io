@@ -192,7 +192,7 @@
          color: #E7E7E7;
          font-weight: normal;
          font-family:'Inconsolata';
-         font-size: 12px;
+         font-size: .8em;
 
       }
       .mast li:hover {
@@ -200,7 +200,13 @@
          background-color:#E14321;
          transition: 0.3s ease;
          text-align: center;
+         font-size: .8em;
       }
+
+      .mast a{
+        font-size: 14px;
+      }
+
       input[type=checkbox]:checked ~ .mast{
          display: block;
       }
@@ -211,11 +217,51 @@
          left: 50%;
          top: 30px;
          transform: translateX(35%);
+         font-size: .8em;
       }
       .dropdown li:hover {
         background-color: #E14321;
         text-align: center;
+        font-size: .8em;
       }
+
+      p{
+        margin-left: 3em;
+        font-size: 14px;
+      }
+
+      a{
+        margin-left: 3em;
+        font-size: 14px;
+      }
+
+      li{
+        margin-left: 3em;
+        font-size: 14px;
+      }
+
+      h1{
+        margin-left: 1em;
+      }
+
+      h2{
+        margin-left: 1em;
+      }
+
+      h3{
+        margin-left: 1em;
+      }
+
+      .vl {
+        border-right: 3px #E14321 solid;
+        padding-right: 35px;
+        margin-top: 40px;
+        height:80vh;
+        width: 85vw;
+        vertical-align: baseline;
+        /* width: 33vw; */
+      }
+
     }
 
   /*//////////////////////////////////////////////////////////////////////////*/

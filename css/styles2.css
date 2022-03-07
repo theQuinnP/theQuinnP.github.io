@@ -20,6 +20,7 @@
     margin:0;
     margin-left: 0px;
   }
+
   body{
     background-color: #E7E7E7;
     text-align: right;
@@ -35,6 +36,7 @@
     font-weight: normal;
     font-family:'Inconsolata';
     font-size: 12px;
+    margin: 10px;
   }
 
   h1{
@@ -46,27 +48,31 @@
   h2{
     font-size: 36px;
     font-weight: 200;
-    margin: 5px;
+    margin: 10px;
   }
 
   h3{
     font-size: 24px;
     font-weight: 200;
+    margin: 10px;
   }
 
   h4{
     font-size: 18px;
     font-weight: 200;
+    margin: 10px;
   }
 
   h5{
     font-size: 16px;
     font-weight: 200;
+    margin: 10px;
   }
 
   h6{
     font-size: 14px;
     font-weight: 200;
+    margin: 10px;
   }
 
   ul{
@@ -309,10 +315,6 @@
                 .contact{}
 
                 .projects{}
-
-                .space1{}
-
-                .space2{}
 
 
             }

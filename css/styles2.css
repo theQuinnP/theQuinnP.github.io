@@ -527,8 +527,11 @@ position: relative;
       }
 
       p{
-        margin-left: 6em;
+        margin-left: 7em;
         font-size: 12px;
+        margin-top: 3px;
+        margin-bottom: 7px;
+        line-height: 1.3em;
       }
 
       .index p{
@@ -538,17 +541,17 @@ position: relative;
       }
 
       a:link{
-        margin-left: 6em;
+        margin-left: 7em;
         font-size: 12px;
       }
 
       a:visited{
-        margin-left: 6em;
+        margin-left: 7em;
         font-size: 12px;
       }
 
       a:hover{
-        margin-left: 6em;
+        margin-left: 7em;
         font-size: 12px;
       }
 

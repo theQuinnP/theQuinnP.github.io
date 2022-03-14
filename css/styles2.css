@@ -370,7 +370,7 @@ position: relative;
   }
 
   /*////////////////////////////////////////////////////////////////////////*/
-  @media (max-width: 599px) {
+  @media (max-width: 750px) {
       .mast {
          display: none;
          align-items: center;
@@ -516,52 +516,28 @@ position: relative;
         position: absolute;
       }
 
-      .projects{
-        margin:0px;
-      }
-
-      .projects p{
-        font-weight: normal;
-        font-family:'Inconsolata';
-        font-size: 12px;
-        margin-left: 0px;
-        padding: 0px;
-        text-align: left;
-      }
-
-      .projects_box h5{
-        font-size: 16px;
-        font-weight: 200;
-        font-family: Inconsolata;
-        margin-left: 0px;
-        padding: 0px;
-        text-align: center;
-      }
-
       .projects_box {
         display: grid;
-        grid-template-rows: auto auto auto auto auto auto auto auto;
+        grid-template-rows: 250px 100px auto auto auto auto auto auto;
         margin: 0px;
         padding: 0px;
         text-align: center;
-      }
-
-      .projects_box p{
-        grid-row-gap: 2px;
-        text-align: center;
-        font-weight: normal;
-        font-family:'Inconsolata';
-        font-size: 12px;
-        margin-left: 0px;
-        margin-top: 0px;
-        padding: 0px;
-
       }
 
       .projects_box img{
         margin:0px;
         margin-top: 30px;
         margin-bottom: 10px;
+        width: 190px;
+      }
+
+      .projects_box p{
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+        width:150px;
+        text-align: center;
+        margin-top: 0px;
+        padding-top: 0px;
       }
 
       .image1{
@@ -668,7 +644,7 @@ position: relative;
 
   /*//////////////////////////////////////////////////////////////////////////*/
 
-            @media screen and (min-width: 600px){
+            @media screen and (min-width: 751px){
 
               body{
                 margin: 0px

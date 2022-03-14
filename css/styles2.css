@@ -506,6 +506,16 @@ position: relative;
         /* width: 33vw; */
       }
 
+      .projects h2{
+        margin-bottom: 0px;
+      }
+
+      .pText p{
+        text-align: left;
+        width:350px;
+        position: absolute;
+      }
+
       .projects{
         margin:0px;
       }
@@ -543,6 +553,7 @@ position: relative;
         font-family:'Inconsolata';
         font-size: 12px;
         margin-left: 0px;
+        margin-top: 0px;
         padding: 0px;
 
       }
@@ -699,9 +710,11 @@ position: relative;
                   margin-bottom: 0px;
                 }
 
-                .projects p{
+                .pText p{
                   text-align: left;
-                  margin-left: 0px;
+                  margin-left: 20px;
+                  width:350px;
+                  position: absolute;
                 }
 
                 .projects_box {

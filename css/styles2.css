@@ -22,7 +22,7 @@
     padding: 0px;
   }
 
-  body{
+  .index body{
     background-color: #E7E7E7;
     text-align: right;
     font-family: jost;
@@ -33,20 +33,84 @@
     /* padding: 40px; */
   }
 
+    body{
+    background-color: #E7E7E7;
+    font-family: jost;
+    font-weight: 100;
+    color: #424242;
+    margin: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    /* padding: 40px; */
+  }
+
   p{
     font-weight: normal;
     font-family:'Inconsolata';
     font-size: 12px;
     margin: 20px;
+    margin-left: 30vw;
+    padding: 0px;
+  }
+
+  .index p{
+    font-weight: normal;
+    font-family:'Inconsolata';
+    font-size: 12px;
+    margin: 20px;
+    margin-left: 30vw;
+    text-align: right;
+  }
+
+  .projects p{
+    font-weight: normal;
+    font-family:'Inconsolata';
+    font-size: 12px;
+    margin-left: 1vw;
+    position:relative;
+    width: 60vw;
+    float: right;
+    padding: 0px;
   }
 
   h1{
     font-size: 48px;
     font-weight: 200;
     margin: 20px;
+    margin-left: 30vw;
+  }
+
+  .index h1{
+    font-size: 48px;
+    font-weight: 200;
+    margin: 20px;
+    text-align: right;
+    padding-left: 0px;
+  }
+
+  .projects h1{
+    font-size: 48px;
+    font-weight: 200;
+    margin: 20px;
+    margin-left: 30vw;
   }
 
   h2{
+    font-size: 36px;
+    font-weight: 200;
+    margin: 20px;
+    margin-left: 30vw;
+  }
+
+  .index h2{
+    font-size: 36px;
+    font-weight: 200;
+    margin: 20px;
+    margin-left: 30vw;
+    text-align: right;
+  }
+
+  .projects h2{
     font-size: 36px;
     font-weight: 200;
     margin: 20px;
@@ -56,24 +120,60 @@
     font-size: 24px;
     font-weight: 200;
     margin: 20px;
+    margin-left: 30vw;
+  }
+
+  .index h3{
+    font-size: 24px;
+    font-weight: 200;
+    margin: 20px;
+    margin-left: 30vw;
+    text-align: right;
   }
 
   h4{
     font-size: 18px;
     font-weight: 200;
     margin: 20px;
+    margin-left: 30vw;
+  }
+
+  .index h4{
+    font-size: 18px;
+    font-weight: 200;
+    margin: 20px;
+    margin-left: 30vw;
+    text-align: right;
   }
 
   h5{
     font-size: 16px;
     font-weight: 200;
     margin: 10px;
+    margin-left: 30vw;
+  }
+
+  .index h5{
+    font-size: 16px;
+    font-weight: 200;
+    margin: 10px;
+    margin-left: 30vw;
+    text-align: right;
   }
 
   h6{
     font-size: 14px;
     font-weight: 200;
     margin: 10px;
+    margin-left: 30vw;
+  }
+
+  .index h6{
+    font-size: 14px;
+    font-weight: 200;
+    margin: 10px;
+    margin-left: 30vw;
+    text-align: right;
   }
 
   ul{
@@ -94,25 +194,45 @@
     font-weight:lighter;
     font-size: 12px;
     font-family:'Inconsolata';
+    margin-left: 30vw;
+    padding: 0px;
   }
 
   a:visited{
     color: #E14321;
     font-weight:lighter;
     font-family:'Inconsolata';
+    margin-left: 30vw;
+    padding: 0px;
   }
 
   a:hover{
     color: #E14321;
     font-weight: bold;
     font-family:'Inconsolata';
+    margin-left: 30vw;
+    padding: 0px;
   }
 
   hr{
     font-weight: 400;
   }
 
-  .vl {
+  .projects hr{
+    font-weight: 400;
+    border-top: 5px;
+    border-color: #E14321;
+    width: 95vw;
+    margin:auto;
+  }
+
+  .projects img{
+    width: 25vw;
+    margin: 5px;
+    margin-left: 3vw;
+  }
+
+  .vl-index {
     border-right: 3px #E14321 solid;
     padding-right: 35px;
     margin-top: 40px;
@@ -122,10 +242,26 @@
     /* width: 33vw; */
   }
 
-  .ba{
+  .ba-index{
         position: absolute;
         bottom: 10vh;
         width: 85vw;
+  }
+
+  .vl-all {
+    border-right: 3px #E14321 solid;
+    padding-right: 35px;
+    margin-top: 40px;
+    height:80vh;
+    width: 25vw;
+    vertical-align: baseline;
+    /* width: 33vw; */
+  }
+
+  .ba-all{
+        position: absolute;
+        bottom: 5vh;
+        width: 75vw;
   }
 
   .mast {
@@ -135,6 +271,8 @@
    margin: 0px;
    margin-left: 0px;
    text-align: center;
+   padding: 0px;
+   z-index: 10;
   }
 
   .mast li {
@@ -178,7 +316,10 @@
   }
 
   /*RESPONSIVE NAVBAR MENU STARTS*/
-
+.navbar{
+  z-index: 10;
+position: relative;
+}
   /* CHECKBOX HACK */
   input[type=checkbox]{
    display: none;
@@ -193,6 +334,140 @@
      color: #E7E7E7;
      padding: 10px;
      padding-top: 20px;
+  }
+
+  .projects_box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+  }
+
+  .projects_box p{
+    grid-column-gap: 1vw;
+    grid-row-gap: 10vh;
+  }
+
+  .image1{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    grid-column-start:1 ;
+    grid-column-end:1 ;
+    grid-row-start: 1;
+    grid-row-end:1 ;
+    /* background-color: blue; */
+  }
+
+  .project1{
+    grid-column-start: 2;
+    grid-column-end:2 ;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    padding-left: 1px;
+  }
+
+  .hr1{
+    grid-column-start: 1;
+    grid-column-end:3 ;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  .image2{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end:2 ;
+  }
+
+  .project2{
+    grid-column-start:2 ;
+    grid-column-end:3 ;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  .hr2{
+    grid-column-start: 1;
+    grid-column-end:3 ;
+    grid-row-start: 3;
+    grid-row-end: 3;
+  }
+
+  .image3{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start:3 ;
+    grid-row-end: 3;
+  }
+
+  .project3{
+    grid-column-start:2 ;
+    grid-column-end:3 ;
+    grid-row-start:3 ;
+    grid-row-end: 3;
+  }
+
+  .hr3{
+    grid-column-start: 1;
+    grid-column-end:3 ;
+    grid-row-start: 4;
+    grid-row-end: 4;
+  }
+
+  .image4{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+  }
+
+  .project4{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+  }
+/*
+  .hr4{
+    grid-column-start: 1;
+    grid-column-end:3 ;
+    grid-row-start: 5;
+    grid-row-end: 5;
+  }
+
+  .image4{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+  }
+
+  .project4{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    background-color: blue;
+  }
+  */
+
+  .red p{
+    color: #E14321;
+  }
+
+  .about-picture img{
+    width: 20vw;
+    margin: 3vw;
   }
 
   /*////////////////////////////////////////////////////////////////////////*/
@@ -237,12 +512,28 @@
       }
 
       p{
-        margin-left: 3em;
+        margin-left: 6em;
         font-size: 14px;
       }
 
-      a{
+      .index p{
         margin-left: 3em;
+        font-size: 14px;
+        padding-left: 0px;
+      }
+
+      a:link{
+        margin-left: 6em;
+        font-size: 14px;
+      }
+
+      a:visited{
+        margin-left: 6em;
+        font-size: 14px;
+      }
+
+      a:hover{
+        margin-left: 6em;
         font-size: 14px;
       }
 
@@ -255,20 +546,44 @@
         margin-left: 1em;
       }
 
+      .index h1{
+        margin-left: 0em;
+        margin-right: .25em;
+        padding-left: 0px;
+        font-size: 2.5em;
+      }
+
       h2{
-        margin-left: 1em;
+        margin-left: 2.1em;
+      }
+
+      .index h2{
+        margin-left: 0em;
+        padding-left: 0px;
+        font-size: 2em;
       }
 
       h3{
         margin-left: 1em;
       }
 
-      .vl {
+      .vl-index {
         border-right: 3px #E14321 solid;
         padding-right: 35px;
         margin-top: 40px;
         height:85vh;
         width: 85vw;
+        vertical-align: baseline;
+        /* width: 33vw; */
+      }
+
+
+      .vl-all {
+        border-right: 3px #E14321 solid;
+        padding-right: 35px;
+        margin-top: 40px;
+        height:85vh;
+        width: 5vw;
         vertical-align: baseline;
         /* width: 33vw; */
       }

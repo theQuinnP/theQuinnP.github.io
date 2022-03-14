@@ -492,10 +492,25 @@ position: relative;
          transition: 0.3s ease;
          text-align: center;
          font-size: .8em;
+         margin: 0px;
       }
 
-      .mast a{
+      .mast a:link{
         font-size: 14px;
+        text-align: center;
+        margin: 0px;
+      }
+
+      .mast a:visited{
+        font-size: 14px;
+        text-align: center;
+        margin: 0px;
+      }
+
+      .mast a:hover{
+        font-size: 14px;
+        text-align: center;
+        margin: 0px;
       }
 
       input[type=checkbox]:checked ~ .mast{
@@ -513,12 +528,12 @@ position: relative;
 
       p{
         margin-left: 6em;
-        font-size: 14px;
+        font-size: 12px;
       }
 
       .index p{
         margin-left: 3em;
-        font-size: 14px;
+        font-size: 12px;
         padding-left: 0px;
       }
 
@@ -570,6 +585,7 @@ position: relative;
       .vl-index {
         border-right: 3px #E14321 solid;
         padding-right: 35px;
+        padding-left: 1px;
         margin-top: 40px;
         height:85vh;
         width: 85vw;

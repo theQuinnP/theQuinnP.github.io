@@ -336,41 +336,9 @@ position: relative;
      padding: 10px;
      padding-top: 20px;
   }
-/*
-  .hr4{
-    grid-column-start: 1;
-    grid-column-end:3 ;
-    grid-row-start: 5;
-    grid-row-end: 5;
-  }
-
-  .image4{
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 5;
-    grid-row-end: 5;
-  }
-
-  .project4{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 5;
-    grid-row-end: 5;
-    background-color: blue;
-  }
-  */
-
-  .red p{
-    color: #E14321;
-  }
-
-  .about-picture img{
-    width: 20vw;
-    margin: 3vw;
-  }
 
   /*////////////////////////////////////////////////////////////////////////*/
-  @media (max-width: 1129px) {
+  @media (max-width: 599px) {
       .mast {
          display: none;
          align-items: center;
@@ -522,6 +490,7 @@ position: relative;
         margin: 0px;
         padding: 0px;
         text-align: center;
+        justify-content: center;
       }
 
       .projects_box img{
@@ -532,12 +501,10 @@ position: relative;
       }
 
       .projects_box p{
-        grid-column-gap: 5px;
-        grid-row-gap: 5px;
-        width:150px;
         text-align: center;
-        margin-top: 0px;
-        padding-top: 0px;
+        margin-left: 20px;
+        width:350px;
+        position: absolute;
       }
 
       .image1{
@@ -546,7 +513,7 @@ position: relative;
         grid-row-start: 1;
         grid-row-end:1 ;
         margin-left: 0px;
-        background-color: blue;
+        margin-bottom: 150px;
       }
 
       .project1{
@@ -554,9 +521,11 @@ position: relative;
         grid-column-end: 1;
         grid-row-start: 2;
         grid-row-end: 2;
-        background-color: red;
         margin: 0px;
         padding: 0px;
+        position: absolute;
+        top: 300px;
+        left: 50px;
       }
 
       .hr1{
@@ -575,6 +544,7 @@ position: relative;
         grid-row-start: 3;
         grid-row-end: 3;
         margin-left: 0px;
+        margin-bottom: 150px;
       }
 
       .project2{
@@ -584,6 +554,9 @@ position: relative;
         grid-row-end: 4;
         margin: 0px;
         padding: 0px;
+        position: absolute;
+        top: 670px;
+        left: 50px;
       }
 
       .hr2{
@@ -602,6 +575,7 @@ position: relative;
         grid-row-start:5;
         grid-row-end: 5;
         margin-left: 0px;
+        margin-bottom: 150px;
       }
 
       .project3{
@@ -611,6 +585,9 @@ position: relative;
         grid-row-end: 6;
         margin: 0px;
         padding: 0px;
+        position: absolute;
+        top: 1050px;
+        left: 50px;
       }
 
       .hr3{
@@ -629,6 +606,7 @@ position: relative;
         grid-row-start: 7;
         grid-row-end: 7;
         margin-left: 0px;
+        margin-bottom: 150px;
       }
 
       .project4{
@@ -638,13 +616,16 @@ position: relative;
         grid-row-end: 8;
         margin: 0px;
         padding: 0px;
+        position: absolute;
+        top: 1420px;
+        left: 50px;
       }
 
     }
 
   /*//////////////////////////////////////////////////////////////////////////*/
 
-            @media screen and (min-width: 1130px){
+            @media screen and (min-width: 600px){
 
               body{
                 margin: 0px

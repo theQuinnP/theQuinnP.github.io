@@ -704,17 +704,6 @@ position: relative;
                   margin-left: 0px;
                 }
 
-                .projects h5{
-                  text-align: left;
-                  margin-top: 35px;
-                }
-
-                .projects h5{
-                  text-align: left;
-                  margin-top: 35px;
-                  margin-left: 210px;
-                }
-
                 .projects_box {
                   display: grid;
                   grid-template-columns: 250px 250px 20px 20px;
@@ -724,7 +713,17 @@ position: relative;
                 .projects_box p{
                   grid-column-gap: 5px;
                   grid-row-gap: 5px;
-                  align-content: left;
+                  width:150px;
+                  text-align: left;
+                }
+
+                .projects_box h5{
+                  grid-column-gap: 5px;
+                  grid-row-gap: 5px;
+                  width:150px;
+                  text-align: left;
+                  position:relative;
+                  left: 0px;
                 }
 
                 .projects_box img{
@@ -751,11 +750,6 @@ position: relative;
                   grid-row-start: 1;
                   grid-row-end: 1;
                   padding-left: 1px;
-                  position:fixed;
-                  left: 0px;
-                  position:relative;
-                  top: 0px;
-                  background-color: green;
                 }
 
                 .hr1{
@@ -780,11 +774,6 @@ position: relative;
                   grid-column-end:2 ;
                   grid-row-start: 2;
                   grid-row-end: 2;
-                  position:fixed;
-                  left: 0px;
-                  position:relative;
-                  top: 0px;
-                  background-color: yellow;
                 }
 
                 .hr2{
@@ -809,11 +798,6 @@ position: relative;
                   grid-column-end:2 ;
                   grid-row-start:3 ;
                   grid-row-end: 3;
-                  position:fixed;
-                  left: 0px;
-                  position:relative;
-                  top: 0px;
-                  background-color: orange;
                 }
 
                 .hr3{
@@ -838,11 +822,6 @@ position: relative;
                   grid-column-end: 2;
                   grid-row-start: 4;
                   grid-row-end: 4;
-                  position:relative;
-                  left: 10px;
-                  position:relative;
-                  top: 0px;
-                  background-color: red;
                 }
 
 

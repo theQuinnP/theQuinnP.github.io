@@ -370,7 +370,7 @@ position: relative;
   }
 
   /*////////////////////////////////////////////////////////////////////////*/
-  @media (max-width: 750px) {
+  @media (max-width: 1129px) {
       .mast {
          display: none;
          align-items: center;
@@ -644,7 +644,7 @@ position: relative;
 
   /*//////////////////////////////////////////////////////////////////////////*/
 
-            @media screen and (min-width: 751px){
+            @media screen and (min-width: 1130px){
 
               body{
                 margin: 0px

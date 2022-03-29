@@ -4,11 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;600;700&display=swap');
 
 
-.index body{
+body{
   /*  linear-gradient(#093761, #031220);
      #CED1D3 */
-  background-color: #031220;
+  background-color: "#031220";
   font-family: Inconsolata;
   font-weight: 100;
-  color: #CED1D3;
+  color: "#CED1D3";
 }

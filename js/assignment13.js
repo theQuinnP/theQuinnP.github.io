@@ -1,4 +1,4 @@
-  const customName = document.getElementById('customname');
+const customName = document.getElementById('customname');
   const randomize = document.querySelector('.randomize');
   const story = document.querySelector('.story');
 
@@ -14,6 +14,7 @@
 
   randomize.addEventListener('click', result);
 
+
   function result() {
 
     let newStory = storyText;
@@ -22,9 +23,9 @@
     const yItem = randomValueFromArray(insertY);
     const zItem = randomValueFromArray(insertZ);
 
-    newStory = newStory.replace("/:insertx:/g", xItem);
-    newStory = newStory.replace("/:inserty:/g", yItem);
-    newStory = newStory.replace("/:insertz:/g", zItem);
+    newStory = newStory.replace(/:insertx:/g, xItem);
+    newStory = newStory.replace(/:inserty:/g, yItem);
+    newStory = newStory.replace(/:insertz:/g, zItem);
 
     if(customName.value !== '') {
       const name = customName.value;
@@ -32,10 +33,10 @@
     }
 
     if(document.getElementById("uk").checked) {
-      const weight = Math.round(300/14) +" stone";
-      const temperature =  Math.round((94-32)*(5/9)) + " centigrade";
+      const weight = Math.round(300/14)+' stone';
+      const temperature =  Math.round((94-32)*(5/9))+' centigrade';
       newStory = newStory.replace("94 fahrenheit", temperature);
-      nnewStory = ewStory.replace("300 pounds", weight);
+      newStory = newStory.replace("300 pounds", weight);
     }
 
     story.textContent = newStory;

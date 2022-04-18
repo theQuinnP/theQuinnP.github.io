@@ -14,31 +14,30 @@
 
   randomize.addEventListener('click', result);
 
-
   function result() {
 
-    const newStory = storyText;
+    let newStory = storyText;
 
     const xItem = randomValueFromArray(insertX);
     const yItem = randomValueFromArray(insertY);
     const zItem = randomValueFromArray(insertZ);
 
-    newStory.replace(":insertX", xItem);
-    newStory.replace(":insertY", yItem);
-    newStory.replace(":insertZ", zItem);
+    newStory = newStory.replace("/:insertx:/g", xItem);
+    newStory = newStory.replace("/:inserty:/g", yItem);
+    newStory = newStory.replace("/:insertz:/g", zItem);
 
     if(customName.value !== '') {
       const name = customName.value;
-      newStory.replace("Bob", name);
+      newStory = newStory.replace("Bob", name);
     }
 
     if(document.getElementById("uk").checked) {
-      const weight = Math.round(300/14, ' stone');
-      const temperature =  Math.round((94-32)*(5/9), ' centigrade');
-      newStory.replace("94 fahrenheit", temperature);
-      newStory.replace("300 pounds", weight);
+      const weight = Math.round(300/14) +" stone";
+      const temperature =  Math.round((94-32)*(5/9)) + " centigrade";
+      newStory = newStory.replace("94 fahrenheit", temperature);
+      nnewStory = ewStory.replace("300 pounds", weight);
     }
 
-    story.textContent = newStory();
+    story.textContent = newStory;
     story.style.visibility = 'visible';
   }

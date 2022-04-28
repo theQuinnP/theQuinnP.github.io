@@ -49,7 +49,7 @@
   p{
     font-weight: normal;
     font-family:'Inconsolata';
-    font-size: 12px;
+    font-size: 14px;
     margin: 20px;
     margin-left: 30vw;
     padding: 0px;
@@ -58,7 +58,7 @@
   .index p{
     font-weight: normal;
     font-family:'Inconsolata';
-    font-size: 12px;
+    font-size: 14px;
     margin: 20px;
     margin-left: 30vw;
     text-align: right;
@@ -67,7 +67,7 @@
   .projects p{
     font-weight: normal;
     font-family:'Inconsolata';
-    font-size: 12px;
+    font-size: 14px;
     margin-left: 1vw;
     position:relative;
     width: 60vw;
@@ -181,13 +181,13 @@
 
   ul{
     list-style-type: disc;
-    font-size: 10px;
+    font-size: 14px;
     list-style-position: inside;
     font-family:'Inconsolata';
   }
 
   ol{
-    font-size: 10px;
+    font-size: 12px;
     list-style-position: inside;
     font-family:'Inconsolata';
   }
@@ -195,7 +195,7 @@
   a:link{
     color: #E14321;
     font-weight:lighter;
-    font-size: 12px;
+    font-size: 14px;
     font-family:'Inconsolata';
     margin-left: 30vw;
     padding: 0px;
@@ -321,7 +321,7 @@
   /*RESPONSIVE NAVBAR MENU STARTS*/
 .navbar{
   z-index: 10;
-position: relative;
+  position: relative;
 }
   /* CHECKBOX HACK */
   input[type=checkbox]{
@@ -337,6 +337,21 @@ position: relative;
      color: #E7E7E7;
      padding: 10px;
      padding-top: 20px;
+  }
+
+  .projBox {
+    margin-left: 30vw;
+    display: inline-block;
+  }
+
+  .proj img{
+    width: 120px;
+    display: inline-block;
+  }
+
+  .proj p{
+    display: inline-block;
+    margin-left: 0px;
   }
 
   /*////////////////////////////////////////////////////////////////////////*/
@@ -397,7 +412,7 @@ position: relative;
 
       p{
         margin-left: 7em;
-        font-size: 12px;
+        font-size: 14px;
         margin-top: 3px;
         margin-bottom: 7px;
         line-height: 1.3em;
@@ -405,23 +420,23 @@ position: relative;
 
       .index p{
         margin-left: 3em;
-        font-size: 12px;
+        font-size: 14px;
         padding-left: 0px;
       }
 
       a:link{
         margin-left: 7em;
-        font-size: 12px;
+        font-size: 14px;
       }
 
       a:visited{
         margin-left: 7em;
-        font-size: 12px;
+        font-size: 14px;
       }
 
       a:hover{
         margin-left: 7em;
-        font-size: 12px;
+        font-size: 14px;
       }
 
       li{
@@ -485,7 +500,7 @@ position: relative;
         width:350px;
         position: absolute;
       }
-
+/*
       .projects_box {
         display: grid;
         grid-template-rows: 250px 100px auto auto auto auto auto auto;
@@ -519,8 +534,8 @@ position: relative;
       }
 
       .project1{
-        grid-column-start: 1;
-        grid-column-end: 1;
+        grid-column-start: 2;
+        grid-column-end: 2;
         grid-row-start: 2;
         grid-row-end: 2;
         margin: 0px;
@@ -541,8 +556,8 @@ position: relative;
       .image2{
         display: grid;
         justify-content: center;
-        grid-column-start: 1;
-        grid-column-end: 1;
+        grid-column-start: 2;
+        grid-column-end: 2;
         grid-row-start: 3;
         grid-row-end: 3;
         margin-left: 0px;
@@ -550,8 +565,8 @@ position: relative;
       }
 
       .project2{
-        grid-column-start:1 ;
-        grid-column-end:1 ;
+        grid-column-start:2 ;
+        grid-column-end:2 ;
         grid-row-start: 4;
         grid-row-end: 4;
         margin: 0px;
@@ -572,8 +587,8 @@ position: relative;
       .image3{
         display: grid;
         justify-content: center;
-        grid-column-start: 1;
-        grid-column-end: 1;
+        grid-column-start: 2;
+        grid-column-end: 2;
         grid-row-start:5;
         grid-row-end: 5;
         margin-left: 0px;
@@ -581,8 +596,8 @@ position: relative;
       }
 
       .project3{
-        grid-column-start:1 ;
-        grid-column-end:1 ;
+        grid-column-start:2 ;
+        grid-column-end:2 ;
         grid-row-start:6 ;
         grid-row-end: 6;
         margin: 0px;
@@ -593,8 +608,8 @@ position: relative;
       }
 
       .hr3{
-        grid-column-start: 1;
-        grid-column-end: 1;
+        grid-column-start: 2;
+        grid-column-end: 2;
         grid-row-start: 7;
         grid-row-end: 7;
         margin-left: 0px;
@@ -603,8 +618,8 @@ position: relative;
       .image4{
         display: grid;
         justify-content: center;
-        grid-column-start: 1;
-        grid-column-end: 1;
+        grid-column-start: 2;
+        grid-column-end: 2;
         grid-row-start: 7;
         grid-row-end: 7;
         margin-left: 0px;
@@ -612,8 +627,8 @@ position: relative;
       }
 
       .project4{
-        grid-column-start: 1;
-        grid-column-end: 1;
+        grid-column-start: 2;
+        grid-column-end: 2;
         grid-row-start: 8;
         grid-row-end: 8;
         margin: 0px;
@@ -622,7 +637,7 @@ position: relative;
         top: 1390px;
         left: 50px;
       }
-
+*/
     }
 
   /*//////////////////////////////////////////////////////////////////////////*/
@@ -644,7 +659,7 @@ position: relative;
                    color: #E7E7E7;
                    font-weight: normal;
                    font-family:'Inconsolata';
-                   font-size: 12px;
+                   font-size: 14px;
                    margin: 0px;
 
                 }
@@ -668,7 +683,7 @@ position: relative;
                 .projects h2{
                   margin-bottom: 0px;
                 }
-
+/*
                 .pText p{
                   text-align: left;
                   margin-left: 20px;
@@ -707,15 +722,15 @@ position: relative;
                   display: grid;
                   justify-content: center;
                   width: 100px;
-                  grid-column-start:1 ;
-                  grid-column-end:1 ;
+                  grid-column-start:3 ;
+                  grid-column-end:3 ;
                   grid-row-start: 1;
                   grid-row-end:1 ;
                 }
 
                 .project1{
-                  grid-column-start: 2;
-                  grid-column-end:2 ;
+                  grid-column-start: 4;
+                  grid-column-end:4 ;
                   grid-row-start: 1;
                   grid-row-end: 1;
                   text-align: left;
@@ -732,15 +747,15 @@ position: relative;
                   display: grid;
                   justify-content: center;
                   width: 100px;
-                  grid-column-start: 1;
-                  grid-column-end: 1;
+                  grid-column-start: 3;
+                  grid-column-end: 3;
                   grid-row-start: 2;
                   grid-row-end:2 ;
                 }
 
                 .project2{
-                  grid-column-start:2 ;
-                  grid-column-end:2 ;
+                  grid-column-start:4 ;
+                  grid-column-end:4 ;
                   grid-row-start: 2;
                   grid-row-end: 2;
                 }
@@ -756,15 +771,15 @@ position: relative;
                   display: grid;
                   justify-content: center;
                   width: 100px;
-                  grid-column-start: 1;
-                  grid-column-end: 1;
+                  grid-column-start: 3;
+                  grid-column-end: 3;
                   grid-row-start:3 ;
                   grid-row-end: 3;
                 }
 
                 .project3{
-                  grid-column-start:2 ;
-                  grid-column-end:2 ;
+                  grid-column-start:4 ;
+                  grid-column-end:4 ;
                   grid-row-start:3 ;
                   grid-row-end: 3;
                 }
@@ -780,18 +795,18 @@ position: relative;
                   display: grid;
                   justify-content: center;
                   width: 100px;
-                  grid-column-start: 1;
-                  grid-column-end: 1;
+                  grid-column-start: 3;
+                  grid-column-end: 3;
                   grid-row-start: 4;
                   grid-row-end: 4;
                 }
 
                 .project4{
-                  grid-column-start: 2;
-                  grid-column-end: 2;
+                  grid-column-start: 4;
+                  grid-column-end: 4;
                   grid-row-start: 4;
                   grid-row-end: 4;
                 }
 
-
+*/
             }

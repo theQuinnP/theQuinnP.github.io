@@ -64,7 +64,7 @@
     text-align: right;
   }
 
-  .projects p{
+  .projects_new p{
     font-weight: normal;
     font-family:'Inconsolata';
     font-size: 14px;
@@ -261,6 +261,18 @@
     /* width: 33vw; */
   }
 
+  .vl-proj {
+    border-right: 3px #E14321 solid;
+    padding-right: 35px;
+    margin-top: 40px;
+    height:140vh;
+    width: 25vw;
+    vertical-align: baseline;
+    position: absolute;
+    top: 90px;
+    /* width: 33vw; */
+  }
+
   .ba-all{
         position: absolute;
         bottom: 5vh;
@@ -339,19 +351,30 @@
      padding-top: 20px;
   }
 
+  .project{
+      position: relative;
+      top: 62px;
+  }
+
   .projBox {
     margin-left: 30vw;
     display: inline-block;
   }
 
+  .proj{
+    margin-bottom: 50px;
+  }
+
   .proj img{
-    width: 120px;
+    width: 172px;
     display: inline-block;
+    position: absolute;
   }
 
   .proj p{
     display: inline-block;
     margin-left: 0px;
+    padding-left: 200px;
   }
 
   /*////////////////////////////////////////////////////////////////////////*/

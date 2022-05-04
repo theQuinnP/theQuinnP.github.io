@@ -917,11 +917,12 @@
     function genreClicked(genre){
       document.getElementById(genre).classList.toggle('buttons-clicked');
     }
-
-    for(let i = 0; i<movies.length; i++){
-      if (movies[i].year < 1999 && movies[i] > 1990){
-        console.log(movies[i]);
-      }
-    }
+ // trying to get the button filters to work, not there yet
+ 
+    // for(let i = 0; i< movies.length; i++){
+    //   if (movies[i].year < 1999 && movies[i] > 1990){
+    //     console.log(movies[i]);
+    //   }
+    // }
 
     window.onload = windowLoaded;

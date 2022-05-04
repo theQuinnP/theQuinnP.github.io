@@ -265,7 +265,7 @@
     border-right: 3px #E14321 solid;
     padding-right: 35px;
     margin-top: 40px;
-    height:140vh;
+    height:199vh;
     width: 25vw;
     vertical-align: baseline;
     position: absolute;
@@ -353,7 +353,7 @@
 
   .project{
       position: relative;
-      top: 62px;
+      top: 92px;
   }
 
   .projBox {

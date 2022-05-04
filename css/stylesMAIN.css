@@ -643,6 +643,19 @@
         width:350px;
         position: absolute;
       }
+
+        .generateWrap{
+          text-align: center;
+          display: block;
+          background-color: #424242;
+          color: #E7E7E7;
+          padding-bottom: 20px;
+          padding-left: 20vw;
+          padding-right: 20vw;
+          margin-left: 10vw;
+          margin-right: 10vw;
+          border-radius: 30px;
+        }
     }
 
   /*//////////////////////////////////////////////////////////////////////////*/

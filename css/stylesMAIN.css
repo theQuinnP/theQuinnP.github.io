@@ -265,7 +265,7 @@
     border-right: 3px #E14321 solid;
     padding-right: 35px;
     margin-top: 40px;
-    height:199vh;
+    height:165vh;
     width: 25vw;
     vertical-align: baseline;
     position: absolute;
@@ -632,6 +632,40 @@
         height:85vh;
         width: 5vw;
         vertical-align: baseline;
+      }
+
+      .vl-proj {
+        border-right: 3px #E14321 solid;
+        padding-right: 5px;
+        margin-top: 40px;
+        height:130vh;
+        width: 10vw;
+        vertical-align: baseline;
+        position: absolute;
+        top: 90px;
+        /* width: 33vw; */
+      }
+
+
+      .projBox {
+        margin-left: 20vw;
+        display: inline-block;
+      }
+
+      .proj{
+        margin-bottom: 50px;
+      }
+
+      .proj img{
+        width: 120px;
+        display: inline-block;
+        position: absolute;
+      }
+
+      .proj p{
+        display: inline-block;
+        margin-left: 0px;
+        padding-left: 150px;
       }
 
       .projects h2{

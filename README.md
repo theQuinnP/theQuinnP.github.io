@@ -1,8 +1,7 @@
 # theQuinnP.github.io
 
-
-
-### hi!!
-###  this account is going to serve as a collection of files and projects for classes.
+### my personal website
+### currently under construction to act as a better portfolio.
+### not that I have much in my portfolio.
 
 #### enjoy

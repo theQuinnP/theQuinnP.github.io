@@ -863,6 +863,84 @@
         year: '1994',
         genre: 'Action, Adventure, Sci-Fi',
       },
+      {
+        title: 'Contact',
+        director: 'Robert Zemeckis',
+        year: '1997',
+        genre: 'Sci-Fi, Mystery, Drama',
+      },
+      {
+        title: 'The Fog',
+        director: 'John Carpenter',
+        year: '1980',
+        genre: 'Horror',
+      },
+      {
+        title: 'Casablanca',
+        director: 'Michael Curtiz',
+        year: '1942',
+        genre: 'Romance, Drama',
+      },
+      {
+        title: 'On the Count of Three',
+        director: 'Jerrod Carmichael',
+        year: '2021',
+        genre: 'Comedy, Drama',
+      },
+      {
+        title: 'Fire of Love',
+        director: 'Sara Dosa',
+        year: '2022',
+        genre: 'Documentary',
+      },
+      {
+        title: 'Petit Maman',
+        director: 'Céline Sciamma',
+        year: '2021',
+        genre: 'Family, Fantasy, Drama',
+      },
+      {
+        title: 'Nope',
+        director: 'Jordan Peele',
+        year: '2022',
+        genre: 'Thriller, Mystery, Sci-Fi, Horror',
+      },
+      {
+        title: 'Mad God',
+        director: 'Phil Tippett',
+        year: '2021',
+        genre: 'Animation, Fantasy, Horror, Sci-Fi',
+      },
+      {
+        title: 'Re-Animator',
+        director: 'Stuart Gordon',
+        year: '1985',
+        genre: 'Sci-Fi, Comedy, Horror',
+      },
+      {
+        title: 'The Lawnmower Man',
+        director: 'Brett Leonard',
+        year: '1992',
+        genre: 'Horror, Sci-Fi',
+      },
+      {
+        title: 'The French Dispatch',
+        director: 'Wes Anderson',
+        year: '2021',
+        genre: 'Drama, Romance, Comedy',
+      },
+      {
+        title: 'Burn After Reading',
+        director: 'Ethan Coen, Joel Coen',
+        year: '2008',
+        genre: 'Drama, Comedy',
+      },
+      {
+        title: 'Bullet Train',
+        director: 'David Leitch',
+        year: '2022',
+        genre: 'Comedy, Action, Thriller',
+      },
       ];
 
     console.log('js is here');

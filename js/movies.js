@@ -1183,6 +1183,7 @@
 
       document.getElementById('Action').addEventListener('click', function(){genreClicked('Action')});
       document.getElementById('Adventure').addEventListener('click', function(){genreClicked('Adventure')});
+      document.getElementById('Animation').addEventListener('click', function(){genreClicked('Animation')});
       document.getElementById('Comedy').addEventListener('click', function(){genreClicked('Comedy')});
       document.getElementById('Crime').addEventListener('click', function(){genreClicked('Crime')});
       document.getElementById('Documentary').addEventListener('click', function(){genreClicked('Documentary')});

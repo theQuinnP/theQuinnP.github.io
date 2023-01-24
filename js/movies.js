@@ -1203,9 +1203,24 @@
       decadeClicked(decade) = decade;
     }
 
+/*
+
+// a function for each decade button, probably an easier way to do this but i dont care
+  function decadeClicked(50){
+    if movies.[random].year = 1950 || 1951 || etc{
+      return;
+    }
+     else if{
+       exit and get a movie, try again
+    }
+  }
+  
+*/
+
     function genreClicked(genre){
       document.getElementById(genre).classList.toggle('buttons-clicked');
     }
+
  // trying to get the button filters to work, not there yet
  
     // for(let i = 0; i< movies.length; i++){

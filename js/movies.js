@@ -1206,7 +1206,12 @@
 /*
 
 // a function for each decade button, probably an easier way to do this but i dont care
-  function decadeClicked(50){
+// needs to be an if? so i can account for multiple buttons pressed
+// ie:    if 1960's, else if 1970's, else if 1980's 
+
+  if decadeClicked(50){
+  check if the year is in th edecade
+  if yes, exit, if no, go to else if
     if movies.[random].year = 1950 || 1951 || etc{
       return;
     }
